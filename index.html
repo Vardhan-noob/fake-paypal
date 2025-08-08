@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Amazon Order Cancellation</title>
+<title>PayPal - Log In</title>
 <style>
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f7f7f7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,14 +15,14 @@ body {
 }
 .container {
     background: white;
-    padding: 30px;
+    padding: 40px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    max-width: 450px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
     width: 100%;
+    max-width: 400px;
 }
 h2 {
-    color: #ff9900;
+    color: #003087;
     text-align: center;
 }
 label {
@@ -40,7 +40,7 @@ input {
 button {
     width: 100%;
     padding: 12px;
-    background-color: #ff9900;
+    background-color: #003087;
     color: white;
     border: none;
     border-radius: 4px;
@@ -57,14 +57,13 @@ button {
 </head>
 <body>
 <div class="container">
-    <h2>Cancel Your Order</h2>
-    <p>Enter your Amazon account details to proceed with order cancellation:</p>
+    <h2>PayPal Login</h2>
     <form>
-        <label for="email">Email or Mobile Number</label>
-        <input type="text" id="email" placeholder="Enter your email or mobile" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
         <label for="password">Password</label>
         <input type="password" id="password" placeholder="Enter your password" required>
-        <button type="submit">Cancel Order</button>
+        <button type="submit">Log In</button>
     </form>
     <div class="footer">
         ⚠ This is a simulated phishing page for testing only. Do not enter real credentials.
